@@ -8,19 +8,16 @@ $ npm link
 ```
 # User /  Pass +Token
 USERNAME and PASSWORD+TOKEN hash to be set as Environment Variable to download files.
-TOKEN is available from here.
+TOKEN is available from here. (https://help.salesforce.com/articleView?id=user_security_token.htm&type=5)
 
-### Mac/Unix
 ```bash
+- Mac/Unix
 $ export SFF_USERNAME=yourname@company.com
 $ export SFF_PASSROKEN=passwordtoken
-```
-### Windows
-```
-- powershell
+- Windows powershell
 set $env:SFF_USERNMAE="username"
 set $env:SFF_PASSTOKEN="passwordtoken"
-- CMD
+- Windows CMD
 set SFF_USERNMAE="username"
 set SFF_PASSTOKEN="passwordtoken"
 ```
