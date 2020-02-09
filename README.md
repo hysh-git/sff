@@ -10,6 +10,8 @@ $ npm link
 USERNAME and PASSWORD+TOKEN hash to be set as Environment Variable to download files.
 TOKEN is available from here. (https://help.salesforce.com/articleView?id=user_security_token.htm&type=5)
 
+Note: This tool uses REST API to Salesforce. Please refere [here](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm) for the limits.
+
 ```bash
 - Mac/Unix
 $ export SFF_USERNAME=yourname@company.com
