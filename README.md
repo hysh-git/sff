@@ -14,12 +14,14 @@ TOKEN is available from here. (https://help.salesforce.com/articleView?id=user_s
 - Mac/Unix
 $ export SFF_USERNAME=yourname@company.com
 $ export SFF_PASSROKEN=passwordtoken
+
 - Windows powershell
-set $env:SFF_USERNMAE="username"
-set $env:SFF_PASSTOKEN="passwordtoken"
+> set $env:SFF_USERNMAE="username"
+> set $env:SFF_PASSTOKEN="passwordtoken"
+
 - Windows CMD
-set SFF_USERNMAE="username"
-set SFF_PASSTOKEN="passwordtoken"
+> set SFF_USERNMAE="username"
+> set SFF_PASSTOKEN="passwordtoken"
 ```
 
 ```bash
