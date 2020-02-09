@@ -4,7 +4,6 @@ Simple command line tool to download Attachments from Salesforce Case.
 ## Intallation
 ```bash
 $ npm install -g @hysh/sff
-$ npm link
 ```
 # User /  Pass +Token
 USERNAME and PASSWORD+TOKEN hash to be set as Environment Variable to download files.
